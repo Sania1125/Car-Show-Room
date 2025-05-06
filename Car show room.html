@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showroom</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #007bff; /* Primary blue */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .car-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .car-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+        }
+
+        .car-item h3 {
+            color: #28a745; /* Success green */
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .car-details {
+            margin-left: 15px;
+            color: #555;
+        }
+
+        .car-details p {
+            margin-bottom: 8px;
+        }
+
+        .status-available {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .status-sold {
+            color: #dc3545; /* Danger red */
+            font-weight: bold;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Premier Car Showroom</h1>
+        <p style="text-align: center; color: #666;">Explore our extensive collection of high-quality vehicles.</p>
+
+        <h2>Available Inventory</h2>
+        <ul class="car-list">
+            <li class="car-item">
+                <h3><span class="highlight">Toyota</span> <span class="highlight">Camry</span> (2023)</h3>
+                <div class="car-details">
+                    <p><span class="highlight">ID:</span> 101</p>
+                    <p><span class="highlight">Color:</span> Silver</p>
+                    <p><span class="highlight">Price:</span> $28,000.00</p>
+                    <p><span class="highlight">Status:</span> <span class="status-available">Available</span></p>
+                </div>
+            </li>
+            <li class="car-item">
+                <h3><span class="highlight">Honda</span> <span class="highlight">Civic</span> (2024)</h3>
+                <div class="car-details">
+                    <p><span class="highlight">ID:</span> 102</p>
+                    <p><span class="highlight">Color:</span> Blue</p>
+                    <p><span class="highlight">Price:</span> $25,500.00</p>
+                    <p><span class="highlight">Status:</span> <span class="status-available">Available</span></p>
+                </div>
+            </li>
+            <li class="car-item">
+                <h3><span class="highlight">Ford</span> <span class="highlight">Mustang</span> (2022)</h3>
+                <div class="car-details">
+                    <p><span class="highlight">ID:</span> 103</p>
+                    <p><span class="highlight">Color:</span> Red</p>
+                    <p><span class="highlight">Price:</span> $45,000.00</p>
+                    <p><span class="highlight">Status:</span> <span class="status-sold">Sold</span></p>
+                </div>
+            </li>
+            </ul>
+
+        <h2>Contact Us</h2>
+        <p style="color: #555;">Visit our showroom today or call us at (123) 456-7890 for more information.</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Car Showroom. All rights reserved.</p>
+    </div>
+</body>
+</html>
